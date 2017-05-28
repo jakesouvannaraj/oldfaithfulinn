@@ -1,0 +1,855 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: auto;
+}
+
+#wrapper1 {
+	width: 100%;
+	height: auto;
+	background-color: bisque;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#wrapper2 {
+	width: 100%;
+	height: auto;
+	background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#wrapper3 {
+	width: 100%;
+	height: auto;
+	background-color: burlywood;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#wrapper4 {
+	width: 100%;
+	height: auto;
+	background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#title {
+	width: 500px;
+	margin: 0 auto;
+	height: auto;
+}
+
+#title h1 {
+	font-size: 40px;
+	font-family: 'Tangerine', serif;
+}
+
+#containergallery {
+	margin: 0 auto;
+	width: 1080px;
+	height: auto;
+	background-color: ;
+}
+
+#containergallery h1 {
+	color: white;
+	font-size: 120px;
+	font-family: 'Tangerine', serif;
+}
+
+#containersocialmedia {
+	margin: 0 auto;
+	width: 1080px;
+	height: auto;
+	background-color: white;
+}
+
+#containertestimonial {
+	margin: 0 auto;
+	width: 1080px;
+	height: auto;
+}
+
+#containercontact {
+	margin: 0 auto;
+	width: 1080px;
+	height: auto;
+	background-color: darksalmon;
+}
+
+
+#identityholder h1 {
+    position: relative;
+}
+
+#identityholder img {
+    background-color: ;
+    margin-right: 50px;
+    margin-top: 8px;
+    float: right;
+}
+
+#identityholderbottom {
+    width: inherit;
+    height: inherit;
+    margin: 0 auto;
+    background-color: ;
+}
+
+#identityholderbottom img {
+    background-color: ;
+    
+    float: left;
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	z-index: 10;
+	background: url(images/wood.png);
+	-webkit-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.52);
+	-moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.52);
+	box-shadow: 0 7px 8px rgba(0, 0, 0, 0.52);
+	opacity: 1;
+	display: inline;
+}
+
+#nav ul {
+	margin-top: 30px;
+	width: 80%;
+	height: inherit;
+	margin: 0 auto;
+	background-color: aqua;
+	float: right;
+}
+
+#nav ul li {
+	display: inline;
+	margin-right: 30px;
+	font-family: 'Arvo', serif;
+	font-size: 20px;
+	color: white;
+}
+
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    font-family: 'Arvo', serif;
+    position: relative;
+    top: 120px; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 80px;
+    right: 45px;
+    font-size: 60px;
+}
+
+#featureimage {
+	padding-top: 100px;
+	height: 680px;
+	width: 100%;
+	background-color: aquamarine;
+	background: url(images/oldfaithfulcover.jpg) no-repeat;
+	background-attachment: fixed;
+	background-position: center 10px;
+	margin-bottom: ;
+    background-size: cover;
+}
+
+#featuretag {
+	width: 960px;
+	height: 200px;
+    margin: 0 auto;
+    background-color: ;
+}
+
+#featuretag img {
+
+	margin-top: 175px;
+}
+
+#featureimage h1 {
+	color: white;
+	font-size: 50px;
+	font-family: 'Tangerine', serif;
+   line-height: 17;
+    text-align: center;
+}
+
+#aboutText {
+	margin: 0 auto;
+	width: 500px;
+	height: auto;
+	margin-bottom: ;
+	background-color: ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#aboutText h1 {
+	font-family: 'Arvo', serif;
+	text-align: left;
+	font-size: 50px;
+}
+
+#aboutText p {
+	font-family: 'Arvo', serif;
+	text-align: left;
+	font-size: 20px;
+}
+
+#history {
+	width: 100%;
+	height: 650px;
+	background: url('images/oldfaithfulhistory.jpg') no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	margin-bottom: ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
+    
+}
+
+#history h1 {
+	font-family: 'Tangerine', serif;
+	color: white;
+	font-size: 42px;
+	text-align: center;
+	line-height: 34;
+    background-color: ;
+}
+
+
+#historyText {
+	margin-top: ;
+	margin: 0 auto;
+	width: 500px;
+	height: auto;
+	margin-bottom: ;
+	background-color: ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#historyText h1 {
+	margin-top: 40px;
+	font-family: 'Arvo', serif;
+	text-align: center;
+	font-size: 100px;
+}
+
+#historyText p {
+	font-family: 'Arvo', serif;
+	text-align: left;
+	font-size: 20px;
+}
+
+#historyText img {
+    padding: 5px;
+}
+
+#founder {
+	width: 100%;
+	height: 650px;
+	background: url(images/robertreamer.jpg) no-repeat;
+	background-attachment: fixed;
+	background-position: ;
+	float: ;
+	margin-bottom: ;
+    background-size: cover;
+}
+
+#center {
+    width: inherit;
+    height: auto;
+    background-color: ;
+}
+
+#boxwrap {
+    width: 500px;
+    height: inherit;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+
+#founderText img {
+    padding: 5px;
+}
+
+.headtag {
+    background-color: ;
+    margin-left: 145px;
+}
+
+.headtagimage1 {
+    background-color: ;
+    margin-left: 175px;
+}
+
+.headtagimage2 {
+    background-color: ;
+    margin-left: 55px;
+}
+
+.headtagimage3 {
+    background-color: ;
+    margin-left: 125px;
+}
+
+#foundertag {
+	width: 960px;
+	height: 200px;
+}
+
+#foundertag img {
+	margin-left: 450px;
+	margin-top: 250px;
+}
+
+#founderText {
+	margin-top: ;
+	margin: 0 auto;
+	width: 500px;
+	height: auto;
+	margin-bottom: ;
+	background-color: ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#founder h1 {
+	font-family: 'Tangerine', serif;
+	color: white;
+	font-size: 42px;
+	margin-left: ;
+	line-height: 29;
+    text-align: center;
+}
+
+#founderText p {
+	font-family: 'Arvo', serif;
+	text-align: left;
+	font-size: 20px;
+}
+
+#built {
+	width: 100%;
+	height: 650px;
+	background: url(images/oldfaithfulbuilt.jpg) no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	margin-bottom: ;
+    background-size: cover;
+}
+
+#builtText {
+	margin-top: ;
+	margin: 0 auto;
+	width: 500px;
+	height: auto;
+	margin-bottom: ;
+	background-color:;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#built h1 {
+	font-family: 'Tangerine', serif;
+	color: white;
+	font-size: 42px;
+	margin-left: ;
+	line-height: 29;
+    text-align: center;
+}
+
+#builtText p {
+	font-family: 'Arvo', serif;
+	text-align: left;
+	font-size: 20px;
+}
+
+#holder {
+	margin: 0 auto;
+	width: 500px;
+	height: auto;
+	background-color: ;
+	padding-top: 50px;
+}
+
+#galleryholder {
+	width: 1080px;
+	height: 1065px;
+	background-attachment: fixed;
+	background-color: bisque;
+}
+
+.box1 {
+	margin-left: 19px;
+	margin-top: 25px;
+	width: 335px;
+	height: 300px;
+	float: left;
+	background-color: forestgreen;
+	position: relative;
+	display: ;
+	background: url(images/gallery4.jpg);
+	background-position: center;
+}
+
+.box1 a {
+	width: 335px;
+	height: 300px;
+	display: block;
+}
+
+.box2 {
+	margin-left: 19px;
+	margin-top: 25px;
+	width: 335px;
+	height: 300px;
+	float: left;
+	background-color: forestgreen;
+	position: relative;
+	display: ;
+	background: url(images/gallery5.jpg);
+	background-position: center;
+}
+
+.box2 a {
+	width: 335px;
+	height: 300px;
+	display: block;
+}
+
+.box3 {
+	margin-left: 19px;
+	margin-top: 25px;
+	width: 335px;
+	height: 300px;
+	float: left;
+	background-color: forestgreen;
+	position: relative;
+	display: ;
+	background: url(images/gallery6.jpg);
+	background-position: center;
+}
+
+.box3 a {
+	width: 335px;
+	height: 300px;
+	display: block;
+}
+
+.box4 {
+	margin-left: 19px;
+	margin-top: 20px;
+	width: 335px;
+	height: 300px;
+	float: left;
+	background-color: forestgreen;
+	position: relative;
+	display: ;
+	background: url(images/gallery1.jpg);
+	background-position: center;
+}
+
+.box4 a {
+	width: 335px;
+	height: 300px;
+	display: block;
+}
+
+.box5 {
+	margin-left: 19px;
+	margin-top: 20px;
+	width: 335px;
+	height: 300px;
+	float: left;
+	background-color: forestgreen;
+	position: relative;
+	display: ;
+	background: url(images/gallery2.jpg);
+	background-position: center;
+}
+
+.box5 a {
+	width: 335px;
+	height: 300px;
+	display: block;
+}
+
+.box6 {
+	margin-left: 19px;
+	margin-top: 20px;
+	width: 335px;
+	height: 300px;
+	float: left;
+	background-color: forestgreen;
+	position: relative;
+	display: ;
+	background: url(images/gallery3.jpg);
+	background-position: center;
+}
+
+.box6 a {
+	width: 335px;
+	height: 300px;
+	display: block;
+}
+
+.box7 {
+	margin-left: 19px;
+	margin-top: 20px;
+	width: 335px;
+	height: 300px;
+	float: left;
+	background-color: forestgreen;
+	position: relative;
+	display: ;
+	background: url(images/gallery7.jpg);
+	background-position: center;
+	margin-bottom: ;
+}
+
+.box7 a {
+	width: 335px;
+	height: 300px;
+	display: block;
+}
+
+.box8 {
+	margin-left: 19px;
+	margin-top: 20px;
+	width: 335px;
+	height: 300px;
+	float: left;
+	background-color: forestgreen;
+	position: relative;
+	display: ;
+	background: url(images/gallery8.jpg);
+	background-position: center;
+	margin-bottom: ;
+}
+
+.box8 a {
+	width: 335px;
+	height: 300px;
+	display: block;
+}
+
+.box9 {
+	margin-left: 19px;
+	margin-top: 20px;
+	width: 335px;
+	height: 300px;
+	float: left;
+	background-color: forestgreen;
+	position: relative;
+	display: ;
+	background: url(images/gallery9.jpg);
+	background-position: center;
+	margin-bottom: ;
+}
+
+.box9 a {
+	width: 335px;
+	height: 300px;
+	display: block;
+}
+
+#socialMediaHolder {
+	width: 1080px;
+	height: 750px;
+	background-color: white;
+}
+
+.Sbox1 {
+	margin-left: 19px;
+	margin-top: 30px;
+	width: 335px;
+	height: 300px;
+	float: left;
+	background-color: forestgreen;
+	position: relative;
+	display: ;
+	background: url(images/socialmedia1.png);
+	background-position: center;
+}
+
+.Sbox2 {
+	margin-left: 19px;
+	margin-top: 30px;
+	width: 335px;
+	height: 300px;
+	float: left;
+	background-color: forestgreen;
+	position: relative;
+	display: ;
+	background: url(images/socialmedia2.png);
+	background-position: center;
+}
+
+.Sbox3 {
+	margin-left: 19px;
+	margin-top: 30px;
+	width: 335px;
+	height: 300px;
+	float: left;
+	background-color: forestgreen;
+	position: relative;
+	display: ;
+	background: url(images/socialmedia3.png);
+	background-position: center;
+}
+
+.Sbox4 {
+	margin-left: 19px;
+	margin-top: 20px;
+	width: 335px;
+	height: 300px;
+	float: left;
+	background-color: forestgreen;
+	position: relative;
+	display: ;
+	background: url(images/socialmedia7.png);
+	background-position: center;
+	margin-bottom: ;
+}
+
+.Sbox5 {
+	margin-left: 19px;
+	margin-top: 20px;
+	width: 335px;
+	height: 300px;
+	float: left;
+	background-color: forestgreen;
+	position: relative;
+	display: ;
+	background: url(images/socialmedia8.png);
+	background-position: center;
+	margin-bottom: ;
+}
+
+.Sbox6 {
+	margin-left: 19px;
+	margin-top: 20px;
+	width: 335px;
+	height: 300px;
+	float: left;
+	background-color: forestgreen;
+	position: relative;
+	display: ;
+	background: url(images/socialmedia6.png);
+	background-position: center;
+	margin-bottom: ;
+}
+
+#testimonialHolder {
+	width: 1065px;
+	height: 525px;
+	background-color: ;
+    margin: 0 auto;
+}
+
+.Tbox1 {
+	margin-left: 7px;
+	margin-top: 30px;
+	width: 310px;
+	height: 365px;
+	float: left;
+	background-color: ;
+	position: relative;
+	display: ;
+	background: ;
+	background-position: center;
+	margin-bottom: ;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+.Tbox2 {
+	margin-left: 13px;
+	margin-top: 30px;
+	width: 310px;
+	height: 365px;
+	float: left;
+	background-color: ;
+	position: relative;
+	display: ;
+	background: ;
+	background-position: center;
+	margin-bottom: ;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+.Tbox3 {
+	margin-left: 13px;
+	margin-top: 30px;
+	width: 310px;
+	height: 365px;
+	float: left;
+	background-color: ;
+	position: relative;
+	display: ;
+	background: ;
+	background-position: center;
+	margin-bottom: ;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+.icon {
+    margin-left: 130px;
+}
+
+#testimonialHolder p {
+	font-family: 'Arvo', serif;
+	text-align: left;
+}
+
+#testimonialHolder h1 {
+	text-align: right;
+	font-family: 'Tangerine', serif;
+}
+
+#contactbox {
+	margin-bottom: 100px;
+	width: 500px;
+	height: 500px;
+	float: left;
+	display: ;
+}
+
+#rightContactBox {
+	margin-bottom: 100px;
+	width: 530px;
+	height: auto;
+	background-color: ;
+	float: right;
+	display: ;
+}
+
+#rightContactBox h1 {
+	font-size: 92px;
+	font-family: 'Tangerine', serif;
+    text-align: center;
+}
+
+#rightContactBox ul li {
+	font-size: 24px;
+	font-family: 'Arvo', serif;
+	list-style-type: none;
+}
+
+#iframebox {
+	height: 500px;
+	width: 500px;
+}
+
+#footer {
+    margin-top: 75px;
+	width: 100%;
+	height: 260px;
+	background: url(images/wood.png);
+    clear: both;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+#footerInfo {
+    width: 1080px;
+    height: inherit;
+    margin: 0 auto;
+    background-color: ;
+    
+}
+
+#footerInfo ul  {
+    width: 360px;
+    height: auto;
+    color: white;
+    float: left;
+}
+
+#footerInfo ul li{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Arvo', serif;
+}
+
+#footerInfo ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+#footerInfo ul h2{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+}
+
+#footerInfo ul li a:hover{
+    color: #663300;
+}
+
+.list2 li a{
+    line-height: 1.45;
+}
+
+.list3 p{
+    font-family: 'Arvo', serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
